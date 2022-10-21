@@ -9,7 +9,5 @@ public class Todo {
     @GetMapping("/")
     public String helloWorld() {
         return "To-do Application !";
-
-
     }
 }
